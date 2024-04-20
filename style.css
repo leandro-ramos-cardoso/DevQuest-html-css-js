@@ -1,0 +1,29 @@
+.imagem-principal {
+    border: dashed 2px;
+    margin-top: 20px;
+}
+
+.tabela-teste {
+    color: rgb(188, 77, 9);
+}
+
+.listas {
+    border: dashed;
+    text-align: center;
+    width: 40%;
+}
+
+span {
+    background-color: yellowgreen;
+}
+
+h1 {
+    background-color: rgb(224, 93, 49);
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+    /*margin-left: 40px;
+    margin-right: 40px;
+    border: dashed 2px;*/
+    box-sizing: border-box;
+}
