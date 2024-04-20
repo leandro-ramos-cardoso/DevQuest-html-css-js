@@ -1,0 +1,19 @@
+h2 {
+    background-color: orange;
+}
+
+p {
+    background-color: orange;
+}
+
+.itemPromocional {
+    background-color: orange;
+    margin: 50px;
+    padding: 30px
+}
+
+.itemPromocional span {
+    color: purple;
+    text-transform: uppercase;
+    font-weight: bold;
+}

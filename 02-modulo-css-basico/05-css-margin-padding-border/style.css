@@ -1,0 +1,18 @@
+/*p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}*/
+
+/*
+    TOPO
+    DIREITA
+    BAIXO
+    ESQUERDA
+*/
+
+p {
+    background-color: aquamarine;
+    border: 10px solid #41993e;
+    margin: 30px 15px 50px 15px;
+    padding: 20px 2px 20px 15px;
+}

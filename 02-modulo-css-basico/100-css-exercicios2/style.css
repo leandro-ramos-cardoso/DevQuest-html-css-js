@@ -1,0 +1,21 @@
+body {
+    /*background-color: rgba(0, 0, 255, 0.2);*/
+    background-color: lightblue;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    margin-top: 10px;
+
+}
+
+img {
+    border: solid 1px #000000;
+}
+
+p {
+    background-color: rgba(137, 43, 226, 0.393);
+    color: rgb(255, 25, 180);
+    margin-left: 20px;
+    margin-right: 20px;
+}

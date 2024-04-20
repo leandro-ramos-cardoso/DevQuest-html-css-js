@@ -1,0 +1,16 @@
+h1 {
+    background-color: chartreuse;
+    display: block;
+    width: 260px;
+    height: 200px;
+}
+
+/*
+p {
+    display: inline;
+}
+*/
+
+span {
+    background-color: aquamarine;
+}

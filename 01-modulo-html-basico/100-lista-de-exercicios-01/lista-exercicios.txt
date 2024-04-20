@@ -1,0 +1,67 @@
+## Lista de Exercícios de HTML Básico:
+
+**Tags:**
+
+1. Crie um documento HTML com a estrutura básica: `<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<meta charset="utf-8">`, `<body>`, e `</html>`.
+2. Identifique e explique a função de cada tag na estrutura básica do HTML.
+3. Crie uma página HTML com diferentes tipos de tags, como `<h1>`, `<h2>`, `<h3>`, `<p>`, `<br>`, `<hr>`, `<img>`, `<ul>`, `<ol>`, `<table>`, etc.
+
+**Meta Tags:**
+
+4. Adicione meta tags importantes ao seu documento HTML, como `viewport`, `description`, `keywords`, `author`, etc.
+5. Pesquise e explique a função de cada meta tag que você adicionar.
+
+**Títulos:**
+
+6. Crie um título atraente e informativo para sua página HTML usando a tag `<title>`.
+7. Formate o título da página usando atributos como `size`, `color`, e `align` (opcional).
+
+**Parágrafos:**
+
+8. Crie parágrafos de texto com diferentes formatações, como negrito, itálico, sublinhado, etc.
+9. Utilize tags como `<p>`, `<strong>`, `<em>`, `<u>`, etc., para formatar o texto.
+
+**Formatação de Texto:**
+
+10. Alinhe o texto à esquerda, ao centro e à direita usando as propriedades `text-align` e `align`.
+11. Aplique cores, tamanhos e estilos de fonte diferentes ao texto usando as propriedades `color`, `font-size`, e `font-family`.
+12. Crie listas ordenadas e não ordenadas usando as tags `<ul>` e `<ol>`.
+13. Formate as listas com diferentes estilos de marcador e numeração.
+
+**Comentários:**
+
+14. Insira comentários em seu código HTML para explicar o que cada parte faz.
+15. Utilize a sintaxe `` para adicionar comentários em seu código.
+
+**Links Internos e Externos:**
+
+16. Crie links para outras páginas dentro do seu site usando a tag `<a>` e o atributo `href`.
+17. Crie links para páginas externas em outros sites usando a tag `<a>` e o atributo `href`.
+18. Abra links em uma nova aba ou janela usando o atributo `target`.
+
+**Imagens:**
+
+19. Insira uma imagem em sua página HTML usando a tag `<img>`.
+20. Defina o atributo `src` para indicar o local da imagem.
+21. Adicione um título à imagem usando o atributo `alt`.
+22. Redimensione a imagem usando os atributos `width` e `height`.
+
+**Listas:**
+
+23. Crie uma lista ordenada de 5 itens sobre um tema de sua escolha.
+24. Crie uma lista não ordenada de 5 hobbies ou interesses.
+25. Formate as listas com diferentes estilos de marcador e numeração.
+
+**Tabelas:**
+
+26. Crie uma tabela simples com 3 linhas e 3 colunas.
+27. Defina cabeçalhos para as colunas da tabela.
+28. Mescle células da tabela para criar um título principal.
+29. Formate a tabela utilizando atributos de estilo como `border`, `padding`, e `margin`.
+
+**Dicas:**
+
+* Utilize um editor de texto simples ou um IDE para escrever seu código HTML.
+* Teste seu código em diferentes navegadores web.
+* Pesquise online por tutoriais e documentação HTML para aprender mais.
+* Divirta-se e seja criativo!

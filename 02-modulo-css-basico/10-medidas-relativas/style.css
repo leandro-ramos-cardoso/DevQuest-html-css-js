@@ -1,0 +1,24 @@
+/* 1em = 16px -> é relativo sempre ao elemento pai*/
+/* O rem sempre é relativo ao elemento ROOT (html)*/
+
+html {
+    background-color: darkgray;
+}
+
+body {
+    background-color: purple;
+    width: 50%;
+}
+
+.pai {
+    background-color: violet;
+    width: 50%;
+    font-size: 2em;
+}
+
+.filha {
+    background-color: greenyellow;
+    width: 50%;
+    font-size: 2rem;
+}
+

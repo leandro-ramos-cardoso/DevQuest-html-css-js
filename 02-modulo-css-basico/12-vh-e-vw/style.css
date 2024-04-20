@@ -1,0 +1,25 @@
+
+/*
+body {
+    margin: 0;
+    width: 300px;
+}
+
+.primeiro-elemento {
+    background-color: aquamarine;
+    width: 100vw;
+}
+
+.segundo-elemento {
+    background-color: blueviolet;
+    width: 100%;
+}
+*/
+
+h1 {
+    font-size: 100vh;
+}
+
+div {
+    text-align: center;
+}

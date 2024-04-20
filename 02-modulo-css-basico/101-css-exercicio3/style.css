@@ -1,0 +1,26 @@
+/*
+* {
+    margin: 0;
+}
+*/
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1, h2 {
+    color: #ff6f00;
+}
+
+p {
+    background-color: rgb(58, 58, 58);
+    color: #ffffff;
+    padding: 30px;
+    margin: 30px;
+    border: solid 6px rgb(255, 110, 0);
+}
+
+img {
+    margin-left: 30px;
+}

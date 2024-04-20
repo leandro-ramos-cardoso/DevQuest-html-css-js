@@ -1,0 +1,20 @@
+.lista-nao-ordenada {
+    background-color: yellowgreen;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+#titulo-listas {
+    background-color: yellow;
+    padding: 20px;
+    border: 2px solid blueviolet;
+    width: 200px;
+    /*244x72*/
+    box-sizing: border-box;
+}
+
+.contato {
+    background-color: black;
+    color: orange;
+}
