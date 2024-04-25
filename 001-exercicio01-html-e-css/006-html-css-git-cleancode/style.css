@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+span {
+    background-color: rgb(131, 222, 222);
+}
+
+#passos-git {
+    
+    margin-bottom: 44px;
+}
+
+.menuPrincipal {
+    background-color: rgba(255, 60, 80, 0.2);
+    color: rgb(242, 57, 44);
+    padding: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 2px solid;
+}
+
+.imagem-git {
+    margin: 25px 25px;
+    text-align: center;
+}
+
+.contato {
+    margin-bottom: 180px;
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+}
