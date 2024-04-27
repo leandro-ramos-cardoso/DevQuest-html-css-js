@@ -16,40 +16,33 @@
 <link rel="stylesheet" href="style.css">
 
 <body>
-    <!--<h1>Estudo Básico</h1>
-
-    <h2><u>HTML Básico</u></h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat obcaecati quibusdam, reiciendis perferendis aspernatur similique ipsa nemo nulla laudantium, vel corporis alias assumenda vero laborum vitae beatae facere deserunt illum.</p>
-
-    <h2>CSS <s>Básico</s></h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat obcaecati quibusdam, reiciendis perferendis aspernatur similique ipsa nemo nulla laudantium, vel corporis alias assumenda vero laborum vitae beatae facere deserunt illum.</p>
-
-    <h2><u>Git Básico</u></h2>
-    <p><strong>Finalidade: </strong>versionar códigos de um repósitorio local para um remoto <em>(GIT).</em></p>
-    
-    <h3><u>Dados para contato</u></h3>
-    <a href="contato.html">Clique aqui</a>
-
-    <br><br>
-    <h1 class="menuPrincipal">Roteiro GIT</h1>-->
     <h1 class="menuPrincipal">
         <a href="https://git-scm.com/" target="_blank"><img src="./src/images/git-logo.png" alt="Logo do Git"
             width="180px"></a>
     </h1>
 
-    <!--<div class="imagem-git">
-        <a href="https://git-scm.com/" target="_blank"><img src="./src/images/git-logo.png" alt="Logo do Git"
-            width="180px"></a>
-    </div>-->
+    <p class="titulosPrinciais">Instalação do Git</p>
 
-    <p style="color: rgb(242, 57, 44);">PASSOS GIT</p>
+    <p style="margin-left: 15px;">-> Você pode fazer o download do Git no <a href="https://git-scm.com/downloads" target="_blank">site oficial.</a></p> <br>
+
+    <p class="titulosPrinciais">Configurando usuário e email no GIT</p><br>
+    <div>
+        <ol>
+            <li>git config --global user.name "nome_usuario"</li>
+            <li>git config --global user.email "seuemail@gmail.com"</li>
+            <li>git config --list <strong>(Serve para verificar se a configuracao foi feita corretamente)</strong></li>
+        </ol>
+    </div>
+    <br>
+
+    <p class="titulosPrinciais">Passos GIT</p>
 
     <div id="passos-git">
         <ol>
-            <li><strong>git init</strong></li>
+            <li>Crie um repositório Git. Um repositório é uma pasta que contém todos os arquivos do seu projeto e é gerenciado pelo Git. Você pode criar um repositório Git em um diretório existente usando o seguinte comando: <strong>git init</strong></li>
+            <li><strong>git remote add origin https://github.com/leandro-ramos-cardoso/teste-del.git</strong></li>
             <li><strong>git clone</strong></li>
             <li><strong>git branch -M main</strong></li>
-            <li><strong>git remote add origin https://github.com/leandro-ramos-cardoso/teste-del.git</strong></li>
             <li><strong>git status</strong></li>
             <li><strong>git add .</strong></li>
             <li><strong>git commit -m "mensagem"</strong></li>
@@ -57,17 +50,19 @@
         </ol>
     </div>
 
-    <p style="color: rgb(242, 57, 44);"><u>Contato do criador da página</u></p>
+    <!--
+    <p class="titulosPrinciais"><u>Contato do criador da página</u></p>
 
     <ul class="contato">
         <li>Telefone: (83)99977-3811</li>
         <li>E-mail: <a href="mailto:lrcardoso.jp@gmail.com">lrcardoso.jp@gmail.com</a></li>
         <li><a href="https://www.linkedin.com/in/leandro-ramos-cardoso-4241b522a/" target="_blank"><span>Linkedin</span></a></li>
-    </ul>
+    </ul>-->
 
    <br>
 
     <p class="footer">Todos os direitos reservados ©</p>
+    <p class="footer">Leandro Ramos Cardoso</p>
 </body>
 
 </html>
