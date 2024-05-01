@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+.tituloPrincipal {
+    background-color: rgb(75, 80, 80);
+    color: rgb(222, 151, 9);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 4px dashed;
+    text-align: center;
+}
+
+.subtitulos {
+    font-weight: bolder;
+}
+
+.ajusteFormulario {
+    margin-left: 10px;
+}
+
+span {
+    color: rgb(101, 110, 143);
+}
+
+.btnEnviar {
+    background-color: rgb(222, 151, 9);
+    color: rgb(255, 255, 255);
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.ajusteBTN {
+    text-align: center;
+}
+
+button:hover {
+    background-color:rgb(75, 80, 80);;
+    color:white;
+}
