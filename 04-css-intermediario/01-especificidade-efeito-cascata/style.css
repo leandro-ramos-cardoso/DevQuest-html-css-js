@@ -1,0 +1,22 @@
+.container-cascata {
+    background-color: aqua;
+    margin-bottom: 80px;
+}
+
+.container-cascata {
+    background-color: orange;
+}
+
+#meu-paragrafo {
+    background-color: tomato;
+}
+
+.container-especificidade p{
+    background-color: chartreuse;
+}
+
+p {
+    background-color: lightblue;
+}
+
+
