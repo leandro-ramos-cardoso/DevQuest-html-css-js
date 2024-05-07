@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Milk';
+    src: url(./fonts/Milk.otf);
+}
+
+h1 {
+    font-family: 'Milk', Courier, monospace;
+}
