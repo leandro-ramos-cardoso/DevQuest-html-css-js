@@ -1,0 +1,16 @@
+p {
+    color: coral;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bg {
+    background-color: lightgreen;
+    background-image: url(./images/cat.png);
+    /*padding: 100px;*/
+}
+
+.bg-image {
+    width: 513px;
+    height: 340px;
+}
