@@ -6,11 +6,34 @@ p {
 
 .bg {
     background-color: lightgreen;
-    background-image: url(./images/cat.png);
+    background-image: url('./images/cat.png');
     /*padding: 100px;*/
 }
 
 .bg-image {
     width: 513px;
     height: 340px;
+}
+
+.bg-repeat {
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.bg-cover {
+    background-size: cover;
+    height: 540px;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+    height: 540px;
+}
+
+.bg-position {
+    /*background-repeat: no-repeat;*/
+    /*background-position: bottom center;*/
+    height: 540px;
+    /*VERSÃO ENCURTADA*/
+    background: #000 url('./images/cat.png') no-repeat right top;
 }
