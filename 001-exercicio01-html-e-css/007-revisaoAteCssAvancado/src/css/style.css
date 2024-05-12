@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(242, 229, 229);
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color: orange;
+}
+
+span {
+    background-color: lightsalmon;
+    color: aquamarine;
+}
+
+.tituloPrincipal {
+    background-color: aqua;
+    padding: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 2px dashed #000;
+}
+
+#tituloSecundario {
+    color: blueviolet;
+}
+
+.fundoImagem {
+    background-image: url('../assets/fundo.jpeg');
+    background-color: aqua;
+    width: 1900px;
+    height: 1000px;
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+button:hover {
+    background-color: aquamarine;
+    border: 0;
+}
