@@ -1,0 +1,69 @@
+body {
+    background-color: #E1E2E1;
+}
+
+/* CABECALHO */
+.cabecalho {
+    background-color: aquamarine;
+    padding: 10px 5px;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho li {
+    display: inline-block;
+    padding: 15px;
+}
+
+/* CONTEUDO */
+main {
+    background-color: white;
+    padding: 30px;
+    margin: 0 auto;
+    /*width: 900px;*/
+    min-width: 320px;
+    max-width: 900px;
+    
+}
+
+main p {
+    font-size: 16px;
+}
+
+.image img {
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        text-align: center;
+    }
+
+    .cabecalho nav {
+        float: none;
+
+    }
+
+    .cabecalho li {
+        display: block;
+
+    }
+}
+
+/*
+@media (max-width: 375px) {  }// dispositivos extra pequenos
+
+@media (max-width: 576px) {  } // dispositivos pequenos (celulares em posição paisagem, menos de 768px)
+
+@media (max-width: 768px) {  } // dispositivos médios (tablets, menos de 992px)
+
+@media (max-width: 992px) {  } // dispositivos grandes (desktops, menos de 1200px)
+
+@media (max-width: 1200px) {  } // dispositivos extra grandes (desktops grandes) // 1200px ou mais, não tem breakpoint
+*/
