@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.float {
+    margin-bottom: 200px;
+}
+
+.float .left {
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.float .right {
+    background-color: darkorange;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.float::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    float: left;
+}

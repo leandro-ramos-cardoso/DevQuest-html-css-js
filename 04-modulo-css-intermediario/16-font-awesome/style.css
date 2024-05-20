@@ -1,0 +1,8 @@
+.fa-instagram {
+    font-size: 100px;
+    color: orange;
+}
+
+.fa-instagram:hover {
+    color: red;
+}
