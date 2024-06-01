@@ -1,0 +1,25 @@
+.primeiraLetra::first-letter {
+    color: rgb(216, 113, 28);
+    font-size: 52px;
+}
+
+.primeiraLinha::first-line {
+    background-color: lightgreen;
+}
+
+.primeiraLinha::first-letter {
+    color: crimson;
+}
+
+li::marker {
+    color: red;
+    font-size: 40px;
+}
+
+.tituloAfter::after {
+    content: url(logo.png);
+}
+
+.tituloBefore::before {
+    content: url(logo.png);
+}

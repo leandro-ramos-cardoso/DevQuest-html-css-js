@@ -1,0 +1,23 @@
+/*p:first-child {
+    color: crimson;
+}
+
+p:last-child {
+    color: orange;
+}
+
+p:not(.default) {
+    color: blueviolet;
+}
+
+li:nth-child(n+2):nth-child(-n+7) {
+    color: deeppink;
+}*/
+
+li:nth-last-child(1) {
+    color: limegreen;
+}
+
+p:only-child {
+    background-color: lightcoral;
+}
