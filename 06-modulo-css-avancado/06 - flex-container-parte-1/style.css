@@ -3,6 +3,8 @@
     /*flex-direction: row;
     flex-wrap: wrap-reverse;*/
     flex-flow: row wrap;
+    border: 1px solid #ccc;
+    justify-content: space-evenly;
 }
 
 .container div{
