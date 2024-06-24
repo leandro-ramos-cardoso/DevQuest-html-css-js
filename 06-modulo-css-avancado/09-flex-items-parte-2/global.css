@@ -4,6 +4,13 @@
     border: 1px solid #ccc;
 }
 
+.container2{
+    display: flex;
+    max-width: 400px;
+    height: 150px;
+    border: 1px solid #ccc;
+}
+
 .item{
     background-color: rgb(195, 145, 241);
     font-size: 20px;

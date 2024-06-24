@@ -1,0 +1,40 @@
+.flex-0{
+    /* flex-grow, flex-shrink, flex-basis */
+    flex: 0;
+}
+
+.flex-1{
+    flex: 1 1 100px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.item{
+    flex: 1;
+}
+
+.item.item3{
+    order: 2;
+    background-color: crimson;
+    color: #ffff;
+}
+
+.item.item1{
+    align-self: stretch;
+    order: 3;
+    background-color: greenyellow;
+}
+
+.item.item22{
+    align-self: flex-start;
+}
+
+.item.item33{
+    align-self: flex-end;
+}
+
+.item.item111{
+    align-self: center;
+}
