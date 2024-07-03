@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+    font-family: Kumbh Sans, sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    --color: hsl(227, 10%, 46%);
+    border-radius: 16px;
+    justify-content: space-between;
+}
+
+.imagem-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagem-perfil img{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.informacoes-pessoais{
+    display: flex;
+    background-color: crimson;
+    margin-top: 300px;
+}
+
+/*.traco{
+    width: 100%;
+    border: 2px solid hsl(227, 10%, 46%);
+    margin: 60px;
+}*/
+
+.age{
+    color: hsl(227, 10%, 46%);
+}
+
+
+.locate{
+    font-weight: 400px;
+    display: block;
+    color: hsl(227, 10%, 46%);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.peso-fonte{
+    font-weight: 700;
+}
+
+.texto-inforiores{
+    color:  hsl(227, 10%, 46%);
+}
