@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: Public Sans;
+    font-size: 15px;
+    --font-weight: 800;
+    line-height: 23.5px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width: 1000px;
+    height: 426px;
+    padding: 20px;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.btn-cadastro{
+    width: 127px;
+    height: 39px;
+    background-color: aqua;
+}
