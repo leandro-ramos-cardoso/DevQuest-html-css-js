@@ -10,13 +10,27 @@ body{
     justify-content: center;
 }
 
+.logo{
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 23.5px;
+}
+
 .container{
     display: flex;
     justify-content: space-between;
-    background-color: aliceblue;
+    --background-color: aliceblue;
     width: 1000px;
     height: 426px;
     padding: 20px;
+}
+
+.container img{
+    width: 45px;
+    height: 42px;
+    top: 45px;
+    left: 44.41px;
 }
 
 
@@ -33,5 +47,37 @@ body{
 .btn-cadastro{
     width: 127px;
     height: 39px;
-    background-color: aqua;
+    background-color: #5BC241;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
+
+.nav .sobre:hover{
+    width: 55px;
+    height: 40px;
+    top: 48px;
+    left: 935px;
+    text-align: center;
+    background-color: #5BC241;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.btn-cadastro {
+    margin-top: -10px;
+}
+
+@media (max-width: 568){
+    .nav li{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
