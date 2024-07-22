@@ -1,0 +1,51 @@
+body {
+    font-family: "Public Sans", sans-serif; 
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 47px;
+    margin-bottom: 100px;
+}
+
+.logo h1 {
+    margin-left: 8px;
+    font-size: 40px;
+    font-weight: 800px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.menu a {
+    font-size: 40px;
+    font-weight: 400px;
+}
+
+.menu a:hover {
+    background-color: #5cc242;
+    color: #FFFFFF;
+    padding: 17px 41px;
+}
+
+.menu .cadastro {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 300px;
+    background-color: #5cc242;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
