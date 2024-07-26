@@ -16,14 +16,15 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 600px;
 }
 
 header .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 47px;
-    margin-bottom: 70px;
+    /*margin-top: 47px;
+    margin-bottom: 70px;*/
 }
 
 header h1 {
@@ -77,5 +78,52 @@ footer {
     line-height: 20px;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Opcional: para centralizar os itens na linha */
+    align-items: center;
+}
+
+.item {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.item1 {
+    background-color: #ffcc4d;
+    display: flex;
+    flex-grow: 2;
+    color: #ffcc4d;;
+}
+
+.item2 {
+    background-color: #65d69a;
+    display: flex;
+    flex-grow: 1;
+    color: #65d69a;;
+}
+
+.item3 {
+    background-color: #ff82a8;
+    display: flex;
+    flex-grow: 1;
+    color: #ff82a8;
+}
+
+.item4 {
+    background-color: #e6536e;
+    display: flex;
+    flex-grow: 3;
+    color: #e6536e;
+}
+
+.item5 {
+    background-color: #f59b51;
+    display: flex;
+    flex-grow: 1;
+    color: #f59b51;
+}
 
 
