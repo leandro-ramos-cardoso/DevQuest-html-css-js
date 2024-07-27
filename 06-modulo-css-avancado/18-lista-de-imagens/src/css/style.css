@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    font-family: "Public Sans", sans-serif;
+}
+
+.container-geral {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container, .container2 {
+    position: relative;
+    --background-color: crimson;
+    --width: 10%;
+}
+
+.texto {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    top: 290px;
+    left: 26px;
+    bottom: 69px;
+}
+
+.texto2 {
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    bottom: 40px;
+    left: 26px;
+}
+
+.text-boat {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    top: 290px;
+    left: 26px;
+    bottom: 69px;
+}
+
+.container2 .last-picture {
+    position: absolute;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    top: 290px;
+    left: 26px;
+    bottom: 69px;
+}

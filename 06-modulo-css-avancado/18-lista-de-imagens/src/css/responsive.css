@@ -1,0 +1,7 @@
+@media (max-width: 767px) {
+    .container-geral {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
