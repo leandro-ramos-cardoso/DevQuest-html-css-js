@@ -1,0 +1,15 @@
+.container > div{
+    border: 1px solid black;
+    background-color: crimson;
+    color: #ffffff;
+}
+
+.container{
+    display: grid;
+    /* 3 colunas
+       1 - a primeira com minimo de 100px e máximo de 800px
+       2 - a segunda e a terceira (repeat com minimo de 100px e maximo de 300px)
+       3 - quarta coluna com auto no minimo e no maximo
+    */
+    grid-template-columns: minmax(100px,800px) repeat(2,minmax(100px,300px)) minmax(auto, auto);
+}

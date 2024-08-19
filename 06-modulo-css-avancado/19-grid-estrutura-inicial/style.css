@@ -1,19 +1,17 @@
-.container div{
+.container > div{
     border: 1px solid black;
     background-color: crimson;
-    color: white;
+    color: #ffffff;
     font-size: 20px;
 }
 
 .container{
     display: grid;
-    --grid-template-columns: auto auto;
-    --grid-template-rows: 50px 150px;
     --grid-template-columns: repeat(2, auto);
-    --grid-template-rows: repeat(2, 110px);
-    grid-template: 150px / auto auto;
-    --grid-gap: 10px;
-    --grid-column-gap: 10px;
-    --grid-row-gap: 50px;
-    grid-gap: 10px 5px;
+    --grid-template-rows: repeat(2, 150px);
+    grid-template: 150px / repeat(2, auto);
+    --grid-gap: 50px;
+    --grid-column-gap: 15px;
+    --grid-row-gap: 10px;
+    grid-gap: 10px 1px;
 }
