@@ -7,7 +7,7 @@ body{
     padding: 3em;
     grid-gap: 2em;
     grid-template-columns: repeat(4, 200px);
-    grid-column-gap: ;
+    grid-column-gap: 1;
 }
 
 p{
